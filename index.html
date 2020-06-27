@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- ....................Calculator................... -->
+<div class="main">
+    <div>
+        <table>
+        <td><input id="inputId" type="text" class="input" placeholder="0"></td>
+        </table>
+    </div>
+    <div>
+        <table>
+            <td class="clean" onclick="cleanNumber('')">C</td>
+        </table>
+    </div>
+    <div>
+        <table>
+            <td class="cl7" onclick="calNumber('7')">7</td>
+            <td class="cl8" onclick="calNumber('8')">8</td>
+            <td class="cl9" onclick="calNumber('9')">9</td>
+            <td class="multiply" onclick="calNumber('*')">x</td>
+        </table>
+    </div>
+    <div>
+        <table>
+            <td class="cl4" onclick="calNumber('4')">4</td>
+            <td class="cl5" onclick="calNumber('5')">5</td>
+            <td class="cl6" onclick="calNumber('6')">6</td>
+            <td class="minuse" onclick="calNumber('-')">-</td>
+        </table>
+    </div>
+    <div>
+        <table>
+            <td class="cl1" onclick="calNumber('1')">1</td>
+            <td class="cl2" onclick="calNumber('2')">2</td>
+            <td class="cl3" onclick="calNumber('3')">3</td>
+            <td class="plus" onclick="calNumber('+')">+</td>
+        </table>
+    </div>
+    <div>
+        <table>
+          <td class="cl0" onclick="calNumber('0')">0</td>
+          <td class="equal" onclick="resultNumber()">=</td>
+        </table>
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

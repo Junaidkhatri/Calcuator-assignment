@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    border: 3px solid black;
+    width: 220px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20%;
+    justify-content: center;
+    background-image: url(images/particles.png);
+}
+.input{
+    outline: none;
+    width: 100% !important;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: liht;
+    background: linear-gradient(#b0c4de  , #778899);
+    text-indent: 5px;
+}
+.cl0,.cl1,.cl2,.cl3,.cl4,.cl5,.cl6,.cl7,.cl8,.cl9,.clean,.cut,.minuse,.plus,.multiply,.equal{
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+.cut{
+    font-size: 20px;
+}
+.cl0,.cl1{
+    width: 180px;
+}
+.cl1,.cl2,.cl4,.cl5,.cl7,.cl8{
+    width: 60px;
+}
+.plus,.minuse,.multiply{
+    padding-left: 40px;
+}
+.clean,.cl7,.cl4,.cl1,.cl0{
+    padding-left: 5px;
+}
+::placeholder{
+    color: white;
+}
+@media all and (min-width: 427px){
+    .input{
+        outline: none;
+        width: 134%;
+        height: 40px;
+        color: white;
+        border: none;
+    }
+}
+@media all and (max-width: 1280px){
+    .input{
+        outline: none;
+        width: 127%;
+        height: 40px;
+        color: white;
+        border: none;
+    }
+}
